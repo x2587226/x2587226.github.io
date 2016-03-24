@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-24T14:40:27.081Z</updated>
+  <updated>2016-03-24T14:43:38.892Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,18 +20,17 @@
     <link href="http://yoursite.com/2016/03/24/%E7%94%A8hexo%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2016/03/24/用hexo快速搭建自己的个人博客/</id>
     <published>2016-03-24T03:51:30.000Z</published>
-    <updated>2016-03-24T14:40:27.081Z</updated>
+    <updated>2016-03-24T14:43:38.892Z</updated>
     
-    <content type="html">&lt;p&gt;#前言&lt;br&gt;很早之前就一直有个想法，搭建一个属于自己的博客，来记录自己的工作和生活，分享人生旅途中的各种经历和感悟。自己是一个有轻度拖延症的人，所以这个想法迟迟没有实现。新的一年到了，给自己定下的第一个目标，就是把个人博客搭建起来，于是就有了这么一段经历。&lt;br&gt;首先，我是一个不懂编程的产品汪，对于开发技术只是略知皮毛（甚至皮毛都谈不上），所以对于不懂编程的童鞋不必太有压力，使用Hexo搭建这个博客其实并不需要太多的编程知识，只要你耐心看完以下内容，一定可以轻松完成。&lt;br&gt;这里简单说一下Hexo对于Wordpress的优势：&lt;/p&gt;
+    <content type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;很早之前就一直有个想法，搭建一个属于自己的博客，来记录自己的工作和生活，分享人生旅途中的各种经历和感悟。自己是一个有轻度拖延症的人，所以这个想法迟迟没有实现。新的一年到了，给自己定下的第一个目标，就是把个人博客搭建起来，于是就有了这么一段经历。&lt;br&gt;首先，我是一个不懂编程的产品汪，对于开发技术只是略知皮毛（甚至皮毛都谈不上），所以对于不懂编程的童鞋不必太有压力，使用Hexo搭建这个博客其实并不需要太多的编程知识，只要你耐心看完以下内容，一定可以轻松完成。&lt;br&gt;这里简单说一下Hexo对于Wordpress的优势：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Hexo可以直接托管在github上，不用自己租赁虚拟服务器，简单粗暴的说法就是省钱！&lt;/li&gt;
 &lt;li&gt;Hexo生成的是静态页面，有利于SEO；&lt;/li&gt;
 &lt;li&gt;Hexo主题比较简洁，是本人比较喜欢的风格；&lt;br&gt;其他的不多说，立即开始正题！&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;#一、搭建本地博客&lt;/p&gt;
-&lt;p&gt;#1.&lt;a href=&quot;https://git-scm.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;安装Git&lt;/a&gt;&lt;br&gt;git是一款免费、开源的分布式版本控制系统，我下载的版本是2.7.3，下载后一路next，按照默认流程按照完成即可，具体用法我们后面会讲到。&lt;/p&gt;
-&lt;p&gt;#2.&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;安装node.js&lt;/a&gt;&lt;br&gt;hexo是用node.js写的，所以我们需要安装node.js，我下载的版本是4.4.0，同样一路next即可。&lt;/p&gt;
-&lt;p&gt;#3.安装Hexo&lt;br&gt;在任何空白的地方（比如桌面空白处），点击右键，我们发现多了两个按钮，一个是Git GUI Here，一个是Git Bush Here，点击Git Bush Here，打开了Git命令行窗口。&lt;/p&gt;
+&lt;h1 id=&quot;一、搭建本地博客&quot;&gt;&lt;a href=&quot;#一、搭建本地博客&quot; class=&quot;headerlink&quot; title=&quot;一、搭建本地博客&quot;&gt;&lt;/a&gt;一、搭建本地博客&lt;/h1&gt;&lt;p&gt;#1.&lt;a href=&quot;https://git-scm.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;安装Git&lt;/a&gt;&lt;br&gt;git是一款免费、开源的分布式版本控制系统，我下载的版本是2.7.3，下载后一路next，按照默认流程按照完成即可，具体用法我们后面会讲到。&lt;/p&gt;
+&lt;h1 id=&quot;2-安装node-js&quot;&gt;&lt;a href=&quot;#2-安装node-js&quot; class=&quot;headerlink&quot; title=&quot;2.安装node.js&quot;&gt;&lt;/a&gt;2.&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;安装node.js&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;hexo是用node.js写的，所以我们需要安装node.js，我下载的版本是4.4.0，同样一路next即可。&lt;/p&gt;
+&lt;h1 id=&quot;3-安装Hexo&quot;&gt;&lt;a href=&quot;#3-安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;3.安装Hexo&quot;&gt;&lt;/a&gt;3.安装Hexo&lt;/h1&gt;&lt;p&gt;在任何空白的地方（比如桌面空白处），点击右键，我们发现多了两个按钮，一个是Git GUI Here，一个是Git Bush Here，点击Git Bush Here，打开了Git命令行窗口。&lt;/p&gt;
 &lt;p&gt;输入以下指令，点击回车开始安装Hexo：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;npm install -g hexo&lt;/p&gt;
@@ -42,28 +41,28 @@
 &lt;p&gt;npm install -g cnpm –registry=&lt;a href=&quot;https://registry.npm.taobao.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://registry.npm.taobao.org&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;再重新输入 npm install -g hexo 进行安装。&lt;/p&gt;
-&lt;p&gt;#4.安装npm&lt;br&gt;npm是Node.js的包管理和分发工具，用它可以很快的找到特定服务要使用的包，进行下载、安装以及管理已经安装的包。&lt;br&gt;同样的，我们在Git命令行窗口中输入以下命令，点击回车开始安装npm：&lt;/p&gt;
+&lt;h1 id=&quot;4-安装npm&quot;&gt;&lt;a href=&quot;#4-安装npm&quot; class=&quot;headerlink&quot; title=&quot;4.安装npm&quot;&gt;&lt;/a&gt;4.安装npm&lt;/h1&gt;&lt;p&gt;npm是Node.js的包管理和分发工具，用它可以很快的找到特定服务要使用的包，进行下载、安装以及管理已经安装的包。&lt;br&gt;同样的，我们在Git命令行窗口中输入以下命令，点击回车开始安装npm：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;npm install&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;安装完成后，我们可以输入npm -v查看当前版本号。&lt;/p&gt;
-&lt;p&gt;#5.创建hexo文件夹&lt;br&gt;安装完基本工具包后，我们需要一个本地文件夹来存放网页文件，在任何你喜欢的地方新建一个文件夹，命名为hexo（如E:\hexo），新建完成后进入该文件夹中，右键打开Git Bush，输入以下命令：&lt;/p&gt;
+&lt;h1 id=&quot;5-创建hexo文件夹&quot;&gt;&lt;a href=&quot;#5-创建hexo文件夹&quot; class=&quot;headerlink&quot; title=&quot;5.创建hexo文件夹&quot;&gt;&lt;/a&gt;5.创建hexo文件夹&lt;/h1&gt;&lt;p&gt;安装完基本工具包后，我们需要一个本地文件夹来存放网页文件，在任何你喜欢的地方新建一个文件夹，命名为hexo（如E:\hexo），新建完成后进入该文件夹中，右键打开Git Bush，输入以下命令：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;hexo init&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;执行指令后，当前文件夹（E:\hexo）中会生成以下内容：&lt;br&gt;├── _config.yml&lt;br&gt;├── package.json&lt;br&gt;├── scaffolds&lt;br&gt;├── scripts&lt;br&gt;├── source&lt;br&gt;|      ├── _drafts&lt;br&gt;|      └── _posts&lt;br&gt;└── themes&lt;br&gt;这样搭建博客所需要的文件我们就都安装好了，接下来我们需要安装一些必要的插件。&lt;/p&gt;
-&lt;p&gt;#6.安装hexo插件&lt;br&gt;因为最新版本的hexo在安装过程中有一些必要插件没有绑定安装，需要我们进行手动安装，下面是个人比较推荐安装的一些插件的集合。&lt;/p&gt;
+&lt;h1 id=&quot;6-安装hexo插件&quot;&gt;&lt;a href=&quot;#6-安装hexo插件&quot; class=&quot;headerlink&quot; title=&quot;6.安装hexo插件&quot;&gt;&lt;/a&gt;6.安装hexo插件&lt;/h1&gt;&lt;p&gt;因为最新版本的hexo在安装过程中有一些必要插件没有绑定安装，需要我们进行手动安装，下面是个人比较推荐安装的一些插件的集合。&lt;/p&gt;
 &lt;p&gt;在hexo文件夹中打开Git Bush，直接复制以下代码执行：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;npm install hexo-generator-index –save&lt;br&gt;npm install hexo-generator-archive –save&lt;br&gt;npm install hexo-generator-category –save&lt;br&gt;npm install hexo-generator-tag –save&lt;br&gt;npm install hexo-server –save&lt;br&gt;npm install hexo-deployer-git –save&lt;br&gt;npm install hexo-deployer-heroku –save&lt;br&gt;npm install hexo-deployer-rsync –save&lt;br&gt;npm install hexo-deployer-openshift –save&lt;br&gt;npm install hexo-renderer-marked@0.2 –save&lt;br&gt;npm install hexo-renderer-stylus@0.2 –save&lt;br&gt;npm install hexo-generator-feed@1 –save&lt;br&gt;npm install hexo-generator-sitemap@1 –save&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;安装完成后，我们就可以开始使用hexo的几个简单指令搭建博客啦。&lt;/p&gt;
-&lt;p&gt;#7.预览本地博客&lt;br&gt;执行以下命令，成功后可登录localhost:4000查看效果&lt;/p&gt;
+&lt;h1 id=&quot;7-预览本地博客&quot;&gt;&lt;a href=&quot;#7-预览本地博客&quot; class=&quot;headerlink&quot; title=&quot;7.预览本地博客&quot;&gt;&lt;/a&gt;7.预览本地博客&lt;/h1&gt;&lt;p&gt;执行以下命令，成功后可登录localhost:4000查看效果&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;hexo s&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;我们看到了hexo默认主题下的博客页面，虽然不那么美观，不过好歹能看了！是不是有点成就感了？&lt;br&gt;那么接下来我们准备将生成的静态页面部署到Github上，这样才能让大家在网络上浏览你的博客。&lt;/p&gt;
-&lt;p&gt;#8.与github建立关联&lt;br&gt;第一步，打开&lt;a href=&quot;https://github.com/join?source=login&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github注册页面&lt;/a&gt;，注册一个github账户，这里我们举个例子，假设我们注册一个username为xuxuancheng的账号，过程很简单，按照提示注册完成即可。&lt;br&gt;（已有账号的朋友可以跳过此步骤，直接登录即可）&lt;/p&gt;
+&lt;h1 id=&quot;8-与github建立关联&quot;&gt;&lt;a href=&quot;#8-与github建立关联&quot; class=&quot;headerlink&quot; title=&quot;8.与github建立关联&quot;&gt;&lt;/a&gt;8.与github建立关联&lt;/h1&gt;&lt;p&gt;第一步，打开&lt;a href=&quot;https://github.com/join?source=login&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github注册页面&lt;/a&gt;，注册一个github账户，这里我们举个例子，假设我们注册一个username为xuxuancheng的账号，过程很简单，按照提示注册完成即可。&lt;br&gt;（已有账号的朋友可以跳过此步骤，直接登录即可）&lt;/p&gt;
 &lt;p&gt;第二步，我们要在github上创建一个仓库来存放网页文件，成功登录后，点击右上角黑色+号，选择new repository，开始创建。&lt;br&gt;Repository name记得必须与你的username相对应，比如我们的username为xuxuancheng，那么Repository name就设置为xuxuancheng.github.io，仓库类型选择为public，点击创建即可。&lt;/p&gt;
 &lt;p&gt;第三步，由于远程代码是基于SSH的，所以我们需要对SSH进行相关配置。&lt;br&gt;先在本地生成SSH公钥，然后添加到Github上面。具体的操作如下：&lt;/p&gt;
 &lt;p&gt;（1）首先打开Git Bush，设置你的用户名和邮箱，输入指令：&lt;/p&gt;
@@ -89,7 +88,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;Hi XXX！You’ve successfully authenticated, but GitHub does not provide shell access.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;#9.将静态页面部署到github上&lt;br&gt;我们已经成功和github建立的关联，可以开始准备将本地的页面部署到github上了，在此之前，我们还需要进行一些设置。&lt;/p&gt;
+&lt;h1 id=&quot;9-将静态页面部署到github上&quot;&gt;&lt;a href=&quot;#9-将静态页面部署到github上&quot; class=&quot;headerlink&quot; title=&quot;9.将静态页面部署到github上&quot;&gt;&lt;/a&gt;9.将静态页面部署到github上&lt;/h1&gt;&lt;p&gt;我们已经成功和github建立的关联，可以开始准备将本地的页面部署到github上了，在此之前，我们还需要进行一些设置。&lt;/p&gt;
 &lt;p&gt;找到E:\hexo目录下的_config.yml文件，用文本编辑器打开，在最下面找到deploy，并进行以下修改：（仍以xuxuancheng为例，有xuxuancheng的地方请自行替换成你注册的用户名）&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;deploy：&lt;br&gt;type： git&lt;br&gt;repo： git@github.com:xuxuancheng/xuxuangcheng.github.io.git&lt;br&gt;branch: master&lt;br&gt;massage: update&lt;/p&gt;
@@ -108,7 +107,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;#前言&lt;br&gt;很早之前就一直有个想法，搭建一个属于自己的博客，来记录自己的工作和生活，分享人生旅途中的各种经历和感悟。自己是一个有轻度拖延症的人，所以这个想法迟迟没有实现。新的一年到了，给自己定下的第一个目标，就是把个人博客搭建起来，于是就有了这么一段经历。&lt;br&gt;首先，我
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;很早之前就一直有个想法，搭建一个属于自己的博客，来记录自己的工作和生活，分享人生旅途中的各种经历和感悟。自己是一个有轻度拖延症的人，所以这个
     
     </summary>
     
